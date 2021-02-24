@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ResearchProjectDef>
+		<defName>SNS_standalone_infinite_research</defName>
+		<label>Beyond our Understanding</label>
+		<description>There are things in this world we were never meant to know, things we were never meant to see, dreams we were never meant to be. At the end of all technology lies endless questions and ten-thousand paths that all lead to nowhere.\n\nBut, we will never know that we've reached that place, that we're walking one of those ten-thousand paths of infinity until the day we cease to exist...\n\n...Because Science Never Stops.\n\n[[NOTE: This research can NOT be completed. Ever. Even using an item that instantly finishes a research will NOT work on this, as this research will just reset itself back to zero.]]</description>
+		<baseCost>Infinity</baseCost>
+		<techLevel>Archotech</techLevel>
+		<researchMods>
+            <li Class="ResearchableStatUpgrades.ResearchMod_Repeatable"></li>
+        </researchMods>
+		<prerequisites>
+			<li>ShipComputerCore</li>
+			<li>ShipEngine</li>
+			<li>ShipReactor</li>
+			<li>ShipCryptosleep</li>
+			<li>ShipSensorCluster</li>
+		</prerequisites>
+		<researchViewX>20</researchViewX>
+		<researchViewY>2.2</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
